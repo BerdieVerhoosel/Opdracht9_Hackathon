@@ -1,0 +1,170 @@
+.bodyindex {
+    background-image: url(Bled.jpg);
+    background-size: auto;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bodymustsee {
+    background-image: url(JazeroJasna.jpg);
+    background-size: auto;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bodyskip {
+    background-image: url(Dobrovo.avif);
+    background-size: auto;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bodycontact {
+    background-image: url(Ljub.jpg);
+    background-size: auto;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bodyabout {
+    background-image: url(Sava.jpg);
+    background-size: auto;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+a {
+color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+ 
+
+a:hover {
+    text-decoration: underline;
+}
+
+.headerblue {
+    color: white; 
+    padding: 10px;
+    margin: 10px;
+}
+
+.headerwhite {
+    background: rgba(139, 134, 134, 0.473);
+    color: white; 
+    padding: 10px;
+    margin: 10px;
+}
+
+.footerblue {
+    background-color: teal;
+    background: rgba(10, 202, 192, 0.5);
+    color: white;
+    font-size: small;
+    opacity: 0.8;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.footerwhite {
+    background: rgba(139, 134, 134, 0.473);
+    color:white;
+    font-size: small;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px;
+}
+
+.footermustsee {
+    background: rgba(0, 0, 0, 0.);
+    color:white;
+    font-size: small;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px;
+}
+
+.intro {
+    background-color: transparent;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.main {
+    margin: 0x;
+    padding: 0px;
+    opacity: 0.8;
+   
+}
+
+.mustsee {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.skip {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    margin-bottom: 5%;
+
+}
+
+.about {
+    background: rgba(7, 122, 117, 0.377);
+    color: white;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding: 10px;
+}
+
+.contact {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding: 10px;
+}
+
+.mainmustsee {
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding: 10px;
+}
+
+@media screen and (min-width: 320px) {
+    body {
+        background: rgba(255, 255, 255, 0.993); 
+        font-weight: bold;
+        color: white;
+
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        background: rgba(139, 134, 134, 0.0);
+        font-weight: normal;  
+        color: black;
+
+    }
+}
